@@ -27,6 +27,14 @@ div.im{
     border-radius:50px;
     
 }
+
+.n{
+   font-size: 17px;
+   color: rgb(33, 34, 87);
+   font-weight: bold;
+   
+  
+}
 #about{
     font-style: italic;
     font-size: 20px;
