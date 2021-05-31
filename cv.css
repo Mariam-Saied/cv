@@ -1,0 +1,71 @@
+ul.nav{
+    list-style-type: none;
+    background-color: rgb(36, 36, 63);
+   
+    display:block;
+    height: 60px;
+}
+li.nav{
+    display:inline-block;
+    margin-bottom: 10px;
+    margin-left:10px;
+    padding: 5px;
+    font-size:30px;}
+li a{
+    color: white;
+    text-decoration: none;
+}
+div.im{
+    background-image: url("me.jfif");
+    width: 20%;
+    margin-left: 32.5%;
+    margin-right: 32.5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    border: 1px solid rgb(25, 25, 49);
+    border-radius:50px;
+    
+}
+#about{
+    font-style: italic;
+    font-size: 20px;
+}
+#skills{
+    font-style: italic;
+    font-size: 20px;
+}
+#contact{
+    font-style: italic;
+    font-size: 20px;
+}
+#languages{
+    font-style: italic;
+    font-size: 20px;}
+.f{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(17, 17, 63); 
+    font-size:20px;
+}
+@media screen and (max-width:700px){
+    ul.nav {
+     height:220px;
+   margin:1px;
+   
+width: 100%;}
+    li.nav{
+        display:block;
+        margin-top: 0px;
+        float:none;
+     text-align: center;
+     
+    }
+    div.im{
+        margin-top: 2px;
+        border-radius:30px ;
+        height:200px;
+        margin-left:40%;
+    }
+   
+}
